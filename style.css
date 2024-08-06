@@ -1,0 +1,727 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("./assets/fonts/Heebo-VariableFont_wght.ttf");
+}
+
+html,
+body {
+  font-family: Heebo;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(139, 189, 223) 100%
+  );
+  background-size: 100vw 200vh;
+}
+
+.button-example {
+  display: inline-block;
+  width: 3vw;
+  margin: 0;
+  position: relative;
+  direction: rtl;
+  animation: fadeIn 1s ease 3s both;
+}
+
+.button-example2 {
+  display: inline-block;
+  width: 3vw;
+  margin: 0;
+  position: relative;
+  direction: rtl;
+  animation: fadeIn 1s ease 5s both;
+}
+
+#body {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#starter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999999999999999999999;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(139, 189, 223) 100%
+  );
+  margin: 0;
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+#test-starter {
+  direction: rtl;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999999999999999999999999;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(139, 189, 223) 100%
+  );
+  margin: 0;
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.information-test {
+  position: absolute;
+  top: 20vh;
+  right: 20vw;
+  width: 50vw;
+  height: 62vh;
+  background-color: white;
+  filter: drop-shadow(10px 10px 30px);
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 5vw 0 5vw;
+  animation: slideIn 1s ease 0s both;
+}
+
+.information-card {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  width: 50vw;
+  height: 60vh;
+  background-color: white;
+  filter: drop-shadow(10px 10px 30px);
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 5vw 0 5vw;
+}
+
+.starter-title {
+  position: relative;
+  margin-top: 10vh;
+  animation: fadeIn 2s ease 0.4s both;
+  font-size: 2.4vmax;
+  line-height: 150%;
+}
+
+.starter-p1 {
+  animation: fadeIn 1s ease 3s both;
+}
+
+.starter-p2 {
+  animation: fadeIn 1s ease 5s both;
+}
+
+.test-p1 {
+  animation: fadeIn 1s ease 3s both;
+}
+
+.test-p2 {
+  animation: fadeIn 1s ease 5s both;
+}
+
+.test-p3 {
+  font-size: 1.8vmax;
+  top: 2%;
+  font-weight: bold;
+}
+
+.start-p {
+  direction: rtl;
+  margin: 0;
+  font-size: 1.5vmax;
+  line-height: 150%;
+}
+
+.play-p {
+  position: absolute;
+  top: 43vh;
+  left: 3vw;
+  height: auto;
+  background-color:rgb(67, 188, 245);
+  box-shadow: 10px 5px 20px rgb(172, 185, 190) ;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 15vmax;
+  transition: all 0.4s ease;
+  animation: fadeIn 1s ease 3s both;
+}
+
+.play-p:hover {
+  box-shadow: 5px 5px 15px rgb(172, 185, 190), 5px 5px 20px rgb(68, 72, 74) inset;
+}
+
+#start-btn {
+  animation: fadeIn 1s ease 6s both;
+}
+
+.play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8vmax;
+  filter: brightness(80%);
+  transition: all 0.4s ease;
+}
+
+#play-p:hover #play {
+  filter: brightness(40%);
+}
+
+#play-p:hover #play2 {
+  filter: brightness(120%);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0;
+    right: -100vw;
+  }
+  100% {
+    width: 60vw;
+    right: 15vw;
+  }
+}
+
+#page1 {
+  overflow: hidden;
+}
+
+.ltldrone {
+  width: 80vw;
+  position: fixed;
+  left: 10vw;
+  top: 0;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card__link,
+.card__exit,
+.card__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.card__link:hover::after {
+  width: 100%;
+}
+
+p {
+  position: relative;
+  text-align: center;
+  font-family: Heebo;
+  direction: rtl;
+  line-height: 2vmin;
+}
+
+.card h1 {
+  position: relative;
+  text-align: center;
+  font-family: Heebo;
+  direction: rtl;
+  line-height: 5vmin;
+  top: 2vmin;
+}
+
+.card h4 {
+  position: relative;
+  text-align: center;
+  font-family: Heebo;
+  direction: rtl;
+  line-height: 1vmin;
+  top: 0vmin;
+}
+
+#drone {
+  width: 80vw;
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
+
+#logo-sayarim {
+  z-index: 99999;
+  position: absolute;
+  left: 0;
+  margin: 1vw;
+  top: 0;
+  width: 5vw;
+  cursor: pointer;
+}
+
+#logo-sayarim:hover + #credits,
+#credits:hover {
+  left: 6vw;
+  opacity: 1;
+}
+
+#credits {
+  position: relative;
+  left: -100vw;
+  z-index: 999999;
+  padding-top: 1vw;
+  top: 1vw;
+  opacity: 0;
+  font-size: 1vw;
+  width: 30vw;
+  height: 6vw;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#credits p {
+  text-align: right;
+  margin: 1vw 1vw 1vw 1vw;
+}
+
+#pele {
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  width: 14vmin;
+  z-index: 998;
+}
+
+/* מנועים */
+
+#btd1 {
+  position: relative;
+  left: 19vw;
+  top: 54vh;
+}
+
+/* פרופלור */
+
+#btd2 {
+  position: relative;
+  left: 67vw;
+  top: 55vh;
+}
+
+/* led */
+
+#btd3 {
+  position: relative;
+  left: 78vw;
+  top: 62vh;
+}
+
+/* חיישנים */
+
+#btd4 {
+  position: relative;
+  left: 21vw;
+  top: 72vh;
+}
+
+/* מצלמה */
+
+#btd5 {
+  position: relative;
+  left: 44vw;
+  top: 64vh;
+}
+
+/* עיגולים */
+
+#btd6 {
+  position: relative;
+  left: 54.5vw;
+  top: 55%;
+}
+
+/* עיגול למעלה */
+
+#btd7 {
+  position: relative;
+  left: 49vw;
+  top: 35vh;
+}
+
+/* למעלה */
+
+#btd8 {
+  position: relative;
+  left: 49vw;
+  top: 23vh;
+}
+
+/* רחפן למטה */
+
+#btd9 {
+  position: relative;
+  left: 49vw;
+  top: 77vh;
+}
+
+/* נורית חיווי מאחורה */
+
+#btd10 {
+  position: relative;
+  left: 46vw;
+  top: 23vh;
+}
+
+/* page 2 buttons */
+
+/* אנטנות */
+
+#btc1 {
+  position: absolute;
+  left: 8vw;
+  top: -43vh;
+}
+
+/* כפתור הדלקה */
+
+#btc2 {
+  position: absolute;
+  left: 13vw;
+  top: -13vh;
+}
+
+/* גויסטיק */
+
+#btc3 {
+  position: absolute;
+  left: 12vw;
+  top: -6vh;
+}
+
+/* כפתור שחור */
+
+#btc4 {
+  position: absolute;
+  left: 5vw;
+  top: -2vh;
+}
+
+/* כפתור אדום */
+
+#btc5 {
+  position: absolute;
+  left: -8vw;
+  top: -4vh;
+}
+
+/* כפתור חזרה הביתה */
+
+#btc6 {
+  position: absolute;
+  left: -15vw;
+  top: -14vh;
+}
+
+/* צד */
+
+#btc7 {
+  position: absolute;
+  left: -18vw;
+  top: -11vh;
+}
+
+/* מחזיק טאבלט */
+
+#btc8 {
+  position: absolute;
+  left: -20vw;
+  top: 30vh;
+}
+
+/* GPS */
+
+#btc9 {
+  position: absolute;
+  left: -5vw;
+  top: -16vh;
+}
+
+/* side - page 3 buttons */
+
+/* חזור */
+
+#bts1 {
+  position: absolute;
+  left: 14vw;
+  top: -8vh;
+}
+
+/* כפתורי צד */
+
+#bts2 {
+  position: absolute;
+  left: -10vw;
+  top: -13vh;
+}
+
+/* כפתורי c1,c2 */
+
+#bts3 {
+  position: absolute;
+  left: 0vw;
+  top: -15vh;
+}
+
+/* גלגלות */
+
+#bts4 {
+  position: absolute;
+  left: -5vw;
+  top: -28vh;
+}
+
+/* under - page 4 buttons */
+
+/* חזור */
+
+#btu1 {
+  position: absolute;
+  left: 49.5vw;
+  top: -40vh;
+}
+
+/* Led */
+
+#btu2 {
+  position: absolute;
+  left: 49.5vw;
+  top: -11vh;
+}
+
+/* חיישנים אולטרסונים */
+
+#btu3 {
+  position: absolute;
+  left: 49.5vw;
+  top: -1vh;
+}
+
+/* ברומטר */
+
+#btu4 {
+  position: absolute;
+  left: 47vw;
+  top: -7vh;
+}
+
+/* btn */
+
+.circle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#inner-dot {
+  opacity: 1 !important;
+}
+
+#outer2 {
+  opacity: 0;
+  z-index: 12;
+  transition: all 0.5s ease 0.1s;
+}
+
+#outer3 {
+  opacity: 0;
+  z-index: 12;
+  transition: all 0.3s ease 0.3s;
+}
+
+#btn:hover .circle {
+  opacity: 0.5;
+}
+
+#next {
+  font-size: 1vw;
+  position: absolute;
+  width: 30vw;
+  height: 14vh;
+  left: 35vw;
+  top: 83vh;
+  font-family: Heebo;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#next:hover {
+  text-shadow: 1px 1px 50px black;
+}
+
+/*  */
+
+button {
+  margin: 20px;
+}
+
+.custom-btn {
+  width: 18vh;
+  height: 4.8vh;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: Heebo;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  top: 80vh;
+  left: 4vw;
+  z-index: 9999;
+}
+
+.custom-btn > span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 1.2vmax;
+}
+
+.btn-6 {
+  background: rgb(201, 35, 35);
+  background: radial-gradient(
+    circle,
+    rgba(201, 35, 35, 1) 0%,
+    rgba(219, 120, 120, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+}
+
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+  box-shadow: -1px -1px 20px 0px rgba(255, 255, 255, 1),
+    -4px -4px 5px 0px rgba(255, 255, 255, 1),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+
+.btn-6:hover {
+  background: transparent;
+  color: rgba(201, 35, 35, 1);
+}
+
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow: -1px -1px 20px 0px rgba(255, 255, 255, 1),
+    -4px -4px 5px 0px rgba(255, 255, 255, 1),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 0.5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 0.5px;
+  transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+  width: 100%;
+}
+
+.btn-6 span:hover:after {
+  width: 100%;
+}

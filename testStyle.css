@@ -1,0 +1,567 @@
+#lomda {
+  direction: ltr;
+  top: 5vh;
+  left: 82vw;
+  width: 13vw;
+  z-index: 999999999999999999;
+}
+
+.custom-btn > span {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h1 {
+  direction: rtl;
+}
+
+.hidden {
+  display: none;
+}
+
+#checkTest {
+  direction: ltr;
+  top: 76% !important;
+  top: 5vh;
+  left: 65% !important;
+  width: 13vw;
+}
+
+#questions {
+  position: relative;
+  left: 20vw;
+  z-index: 999999;
+  margin: 0;
+  top: 2vh;
+  font-size: 1vw;
+  width: 60vw;
+  height: 60vh;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#qnum {
+  font-size: 1.5vmax;
+  text-align: right;
+  margin: 1vw;
+}
+
+#qList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  bottom: 0%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.qc {
+  border-radius: 10px 1px 1px 1px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2.1vw;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 9%;
+  height: 100%;
+  background-color: rgba(188, 188, 188, 0.7);
+}
+
+.answered {
+  filter: brightness(150%);
+}
+
+.current {
+  filter: brightness(60%) !important;
+}
+
+.rightQ {
+  background-color: #136b13;
+}
+
+.wrongQ {
+  background-color: #820b0b;
+}
+
+.right {
+  color: green !important;
+}
+
+.wrong {
+  color: brown !important;
+}
+
+#answers {
+  position: relative;
+  top: 7vh;
+  right: 7vw;
+  font-size: 1.3vw;
+}
+
+.answer {
+  text-align: right;
+  cursor: pointer;
+  z-index: 999999999;
+}
+
+.answer:hover {
+  color: rgb(156, 156, 156);
+}
+
+.pick {
+  font-size: 1.9vw;
+  z-index: 0;
+  color: black;
+}
+
+.chosen {
+  color: rgb(195, 195, 195) !important;
+}
+
+#finished {
+  display: none;
+  position: absolute;
+  width: 65vw;
+  height: 68vh;
+  left: 17.5vw;
+  background-color: white;
+  border-radius: 2vw;
+  top: 15vh;
+  z-index: 999999;
+  filter: drop-shadow(5px 10px 30px);
+}
+
+#inside {
+  display: none;
+  position: relative;
+  background-color: white;
+  border-style: ridge;
+  border-radius: 30px;
+  top: 12%;
+  width: 80%;
+  left: 9%;
+  height: 78%;
+}
+
+.centered {
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fh1 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5vw;
+  direction: rtl;
+}
+
+#confirm {
+  display: none;
+  position: relative;
+  width: 55vw;
+  height: 50vh;
+  left: 5vw;
+  border-radius: 30px;
+  top: 10vh;
+}
+
+#btnList {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+  left: 0;
+}
+
+.confirmationButton {
+  position: relative;
+  top: 0vh !important;
+  cursor: pointer;
+  width: 20%;
+  left: 0;
+  text-align: center;
+  direction: rtl;
+}
+
+#scoreNum {
+  font-size: 5vw;
+  animation: glow 2s ease infinite;
+}
+
+@media screen and (max-width: 1500px) {
+  #checkTest {
+    top: 70% !important;
+    left: 60% !important;
+    width: 18vw;
+    padding: 0.3vh 0 3.1vh 0;
+    font-size: 1vh !important;
+  }
+
+  #lomda {
+    direction: ltr;
+    top: 5vh;
+    left: 82vw;
+    width: 13vw;
+    z-index: 999999999999999999;
+  }
+
+  #send {
+    top: 85vh;
+  }
+  #questions {
+    top: 8vh;
+    font-size: 2vh;
+  }
+  .pick {
+    cursor: auto !important;
+  }
+
+  .answer,
+  .pick {
+    font-size: 2.8vh;
+  }
+  #qList {
+    height: 12%;
+  }
+  #qnum,
+  #questionCount {
+    font-size: 2.5vh;
+  }
+  .btn-6 > span {
+    font-size: 1.8vh;
+  }
+  #finished {
+    width: 65vw;
+    height: 60vh;
+    left: 17.5vw;
+    top: 15vh;
+  }
+  #inside {
+    width: 55vw;
+    height: 20vh;
+    left: 4vw;
+    top: 8vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #lomda {
+    direction: ltr;
+    top: 5vh;
+    left: 76vw;
+    width: 16vw;
+    z-index: 999999999999999999;
+  }
+
+  #send {
+    top: 85vh;
+  }
+  #questions {
+    font-size: 1.8vh;
+    width: 70vw;
+    left: 15vw;
+  }
+  .answer,
+  .pick {
+    font-size: 2.8vh;
+  }
+  #qList {
+    height: 10%;
+  }
+  #finished {
+    width: 65vw;
+    height: 50vh;
+    left: 17.5vw;
+    top: 10vh;
+  }
+  #inside {
+    width: 55vw;
+    height: 25vh;
+    left: 4vw;
+    top: 6vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #lomda {
+    direction: ltr;
+    top: 5vh;
+    left: 76vw;
+    width: 18vw;
+    z-index: 999999999999999999;
+  }
+  #questions {
+    font-size: 1.8vh;
+    width: 80vw;
+    left: 10vw;
+  }
+  .answer,
+  .pick {
+    font-size: 2.8vh;
+  }
+  #qList {
+    height: 10%;
+  }
+
+  #finished {
+    width: 65vw;
+    height: 45vh;
+    left: 17.5vw;
+    top: 10vh;
+  }
+  #inside {
+    width: 55vw;
+    height: 35vh;
+    left: 4vw;
+    top: 4vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #lomda {
+    direction: ltr;
+    top: 20vh;
+    left: 74vw;
+    width: 20vw;
+    z-index: 999999999999999999;
+  }
+  #send {
+    top: 83vh;
+  }
+  #questions {
+    font-size: 1.8vh;
+    height: 50vh;
+    top: 15vh;
+  }
+  .answer,
+  .pick {
+    font-size: 2.4vh;
+  }
+  #qList {
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #questions {
+    font-size: 1.8vh;
+    height: 45vh;
+    top: 18vh;
+  }
+  .answer,
+  .pick {
+    font-size: 2vh;
+  }
+  #qList {
+    height: 9%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #lomda {
+    direction: ltr;
+    top: 20vh;
+    left: 63vw;
+    width: 50vw;
+    z-index: 999999999999999999;
+  }
+  #questions {
+    font-size: 1.5vh;
+    height: 45vh;
+    top: 18vh;
+  }
+  .answer,
+  .pick {
+    font-size: 2vh;
+  }
+  #qList {
+    height: 10%;
+  }
+  #qnum,
+  #questionCount {
+    font-size: 2vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .answer:hover {
+    color: black;
+  }
+
+  #checkTest {
+    direction: ltr;
+    top: 65% !important;
+    left: 63% !important;
+    width: 20vw;
+    font-weight: 500;
+    font-size: 1vh !important;
+  }
+  .custom-btn span {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 3vh 0.5vw 0.5vh 0.5vw;
+  }
+
+  #lomda {
+    direction: ltr;
+    top: 15vh;
+    left: 60vw;
+    width: 33vw;
+  }
+  #questions {
+    font-size: 1.2vh;
+    height: 30vh;
+    top: 21vh;
+  }
+  #answers {
+    top: 4vh;
+  }
+  .answer,
+  .pick {
+    font-size: 1.5vh;
+  }
+  #qnum,
+  #questionCount {
+    font-size: 1.7vh;
+  }
+
+  #send {
+    width: 20vw;
+    left: 2vw;
+    padding: 0.8vh 0 3.2vh 0;
+    top: 70vh;
+  }
+  #credits {
+    padding-top: 1vh;
+    top: 3vh;
+    font-size: 1.3vh;
+    width: 60vw;
+    height: 15vw;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+  }
+  #credits p {
+    margin: 1vh 2vh 1vh 1vh;
+  }
+  #logo-sayarim {
+    left: 0;
+    margin: 1vw;
+    top: 2vh;
+    width: 15vw;
+    cursor: pointer;
+  }
+  #pele {
+    left: 2vw;
+    top: 3vh;
+    width: 12vw;
+  }
+  #logo-sayarim:hover + #credits,
+  #credits:hover {
+    left: 20vw;
+  }
+  #finished {
+    width: 80vw;
+    left: 10vw;
+    height: 30vh;
+    top: 30vh;
+  }
+  #confirm {
+    width: 80%;
+    left: 10%;
+    height: 80%;
+    top: 10%;
+  }
+  #inside {
+    top: 12%;
+    width: 80%;
+    left: 9%;
+    height: 78%;
+  }
+  .fh1 {
+    font-size: 1.7vh;
+  }
+  .confirmationButton {
+    font-size: 1vh;
+    width: 60%;
+    font-weight: 500;
+    padding: 0 0 1.5vh 0;
+  }
+
+  #scoreH1 {
+    font-size: 3vh;
+  }
+  .starter-title {
+    margin-top: 5vh;
+    font-size: 2.6vmax;
+  }
+  .play-p {
+    top: 45vh;
+    left: 4vw;
+  }
+  .play {
+    width: 8vmax;
+  }
+  .test-p3 {
+    left: 2vmax;
+    top: 1.5vh;
+  }
+  .start-p {
+    margin: 3vh 0 3vh 0;
+    font-size: 2.1vmax;
+    line-height: 150%;
+  }
+  .information-test .start-p {
+    font-size: 1.8vmax;
+  }
+  .information-test {
+    top: 25vh;
+    right: 10vw;
+    width: 70vw;
+    height: 45vh;
+  }
+  #ttl-test {
+    margin-top: 5vh;
+    font-size: 2vmax !important;
+  }
+  .play-p-test {
+    top: 36vh !important;
+    left: 3vw !important;
+  }
+}
+
+@keyframes glow {
+  0% {
+    filter: brightness(90%);
+  }
+  50% {
+    filter: brightness(200%);
+  }
+  100% {
+    filter: brightness(90%);
+  }
+}

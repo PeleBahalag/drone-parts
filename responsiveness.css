@@ -1,0 +1,1217 @@
+@media screen and (max-width: 1920px) {
+    /* מנועים */
+    #btd1 {
+        left: 19vw;
+        top: 53vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 56vh;
+    }
+    /* led */
+    #btd3 {
+        left: 78vw;
+        top: 64vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 21vw;
+        top: 71vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 44vw;
+        top: 68vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 54.5vw;
+        top: 54%;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 35vh;
+    }
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 25vh;
+    }
+    .custom-btn {
+        top: 84vh;
+    }
+    /* חזור */
+    #btu1 {
+        position: absolute;
+        left: 49.5vw;
+        top: -27vh;
+    }
+}
+
+@media screen and (max-width: 1790px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 26vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -39vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -12vh;
+    }
+    /* צד */
+    #btc7 {
+        left: -18vw;
+        top: -9vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 49vw;
+        top: 76vh;
+    }
+    /* חזור */
+    #bts1 {
+        position: absolute;
+        left: 18vw;
+        top: -8vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -13vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -15vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -25vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        position: relative;
+        left: 46vw;
+        top: 25vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -5vw;
+        top: -15.5vh;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 28vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 46vw;
+        top: 67vh;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 36vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 27vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -11vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -36vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 49vw;
+        top: 74vh;
+    }
+    /* Led */
+    #btu2 {
+        position: absolute;
+        left: 49vw;
+        top: -10vh;
+    }
+    /* חיישנים אולטרסונים */
+    #btu3 {
+        position: absolute;
+        left: 49vw;
+        top: -0vh;
+    }
+    /* חזור */
+    #bts1 {
+        position: absolute;
+        left: 17vw;
+        top: -8vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -13vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -14vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -23vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        position: relative;
+        left: 46vw;
+        top: 27vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -5vw;
+        top: -14.5vh;
+    }
+    .play-p {
+        top: 44vh;
+        left: 3vw;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 1.5vmax;
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 29vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 46vw;
+        top: 66vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 21vw;
+        top: 66vh;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 38vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 23vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -32vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -11vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 49vw;
+        top: 71vh;
+    }
+    .custom-btn {
+        top: 80vh;
+    }
+    #next {
+        top: 80vh;
+    }
+    /* Led */
+    #btu2 {
+        position: absolute;
+        left: 49vw;
+        top: -8vh;
+    }
+    /* חיישנים אולטרסונים */
+    #btu3 {
+        position: absolute;
+        left: 49vw;
+        top: -.5vh;
+    }
+    /* חזור */
+    #bts1 {
+        position: absolute;
+        left: 17vw;
+        top: -8vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -12vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -13vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -21vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -6vw;
+        top: -14vh;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 30vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 46vw;
+        top: 65vh;
+    }
+    /* led */
+    #btd3 {
+        left: 77vw;
+        top: 60vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -10vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -10vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 49vw;
+        top: 68vh;
+    }
+    .custom-btn {
+        top: 75vh;
+    }
+    #next {
+        top: 75vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -11vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -12vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -20vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        position: relative;
+        left: 46vw;
+        top: 29vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -6vw;
+        top: -13vh;
+    }
+    .play-p {
+        top: 45vh;
+        left: 3vw;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 1.8vmax;
+        line-height: 150%;
+    }
+    .information-card {
+        top: 20vh;
+        left: 15vw;
+        width: 60vw;
+        height: 60vh;
+    }
+    .information-test {
+        top: 20vh;
+        right: 15vw;
+        width: 60vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 31vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 46vw;
+        top: 63vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -30vh;
+    }
+    /* כפתור שחור */
+    #btc4 {
+        position: absolute;
+        left: 4vw;
+        top: -4vh;
+    }
+    /* צד */
+    #btc7 {
+        left: -18vw;
+        top: -6vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 48vw;
+        top: 67vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -10vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -11vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -19vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -6vw;
+        top: -12.5vh;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 33vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 45vw;
+        top: 63vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 19vw;
+        top: 52vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 54vh;
+    }
+    /* led */
+    #btd3 {
+        left: 77vw;
+        top: 58vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 21vw;
+        top: 65vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 20vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        position: relative;
+        left: 46vw;
+        top: 30vh;
+    }
+    .play-p {
+        top: 44vh;
+        left: 5vw;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    /* מצלמה */
+    #btd5 {
+        left: 45vw;
+        top: 61vh;
+    }
+    /* led */
+    #btd3 {
+        left: 77vw;
+        top: 57vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 21vw;
+        top: 63vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 54.5vw;
+        top: 53%;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 39vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -27vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -9vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -9vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 17vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 48vw;
+        top: 65vh;
+    }
+    /* כפתורי צד */
+    #bts2 {
+        position: absolute;
+        left: -10vw;
+        top: -9vh;
+    }
+    /* כפתורי c1,c2 */
+    #bts3 {
+        position: absolute;
+        left: 0vw;
+        top: -10vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        position: absolute;
+        left: -5vw;
+        top: -17vh;
+    }
+    /* ברומטר */
+    #btu4 {
+        position: absolute;
+        left: 47vw;
+        top: -6vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        position: relative;
+        left: 46vw;
+        top: 32vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -6vw;
+        top: -12vh;
+    }
+    .starter-title {
+        font-size: 3.5vmax;
+    }
+    .play-p {
+        top: 41vh;
+        left: 8vw;
+    }
+    .play-p-test {
+        top: 45vh !important;
+        left: 5vw !important;
+    }
+    #play {
+        width: 11vmax;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 1.8vmax;
+        line-height: 150%;
+    }
+    .information-card {
+        top: 20vh;
+        left: 15vw;
+        width: 60vw;
+        height: 60vh;
+    }
+    .information-test {
+        top: 20vh;
+        right: 15vw;
+        width: 60vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 34vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 53vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 19vw;
+        top: 50vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 45vw;
+        top: 57vh;
+    }
+    /* led */
+    #btd3 {
+        left: 77vw;
+        top: 54vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 20vw;
+        top: 58vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 54.5vw;
+        top: 50%;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 40vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 8vw;
+        top: -24vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -8vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -8vh;
+    }
+    /* גויסטיק */
+    #btc3 {
+        position: absolute;
+        left: 12vw;
+        top: -4vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 48vw;
+        top: 63vh;
+    }
+    .custom-btn {
+        top: 70vh;
+    }
+    #next {
+        top: 72vh;
+    }
+    /* Led */
+    #btu2 {
+        position: absolute;
+        left: 49vw;
+        top: -7vh;
+    }
+    /* חיישנים אולטרסונים */
+    #btu3 {
+        position: absolute;
+        left: 49vw;
+        top: -.5vh;
+    }
+    /* חזור */
+    #btu1 {
+        position: absolute;
+        left: 48vw;
+        top: -17vh;
+    }
+    /* גלגלות */
+    #bts4 {
+        left: -5vw;
+        top: -16vh;
+    }
+    /* ברומטר */
+    #btu4 {
+        left: 47vw;
+        top: -4vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 46vw;
+        top: 33vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -6vw;
+        top: -11vh;
+    }
+    .starter-title {
+        font-size: 3.8vmax;
+    }
+    #ttl-test {
+        margin-top: 5vh;
+    }
+    .play-p {
+        top: 38vh;
+        left: 8vw;
+    }
+    .play-p-test {
+        top: 40vh !important;
+        left: 5vw !important;
+    }
+    .play {
+        width: 10vmax;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 2vmax;
+        line-height: 150%;
+    }
+    .information-card {
+        top: 20vh;
+        left: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+    .information-test {
+        top: 20vh;
+        right: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 35vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 52vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 7vw;
+        top: -21vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 14vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -7vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -7vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        left: 48vw;
+        top: 63vh;
+    }
+    /* Led */
+    #btu2 {
+        left: 49vw;
+        top: -6vh;
+    }
+    /* חיישנים אולטרסונים */
+    #btu3 {
+        left: 49vw;
+        top: -.5vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 46vw;
+        top: 34vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -7vw;
+        top: -10.5vh;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 36vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 7vw;
+        top: -19vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 12vh;
+    }
+    /* כפתור שחור */
+    #btc4 {
+        position: absolute;
+        left: 5vw;
+        top: -3vh;
+    }
+    /* כפתור אדום */
+    #btc5 {
+        position: absolute;
+        left: -8vw;
+        top: -3vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 48vw;
+        top: 61vh;
+    }
+    .custom-btn {
+        top: 68vh;
+    }
+    #next {
+        top: 70vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 44vw;
+        top: 34vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -7vw;
+        top: -10vh;
+    }
+    .starter-title {
+        font-size: 4vmax;
+    }
+    .play-p {
+        top: 40vh;
+        left: 8vw;
+    }
+    .play {
+        width: 13vmax;
+    }
+    .test-p3 {
+        left: 4vmax;
+        top: 3.5vh;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 2.1vmax;
+        line-height: 150%;
+    }
+    .information-card {
+        top: 20vh;
+        left: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+    .information-test {
+        top: 20vh;
+        right: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 37vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 50vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 19vw;
+        top: 49vh;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 45vw;
+        top: 55vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 20vw;
+        top: 57vh;
+    }
+    /* עיגול למעלה */
+    #btd7 {
+        left: 49vw;
+        top: 42vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 7vw;
+        top: -17vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 10vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -14vw;
+        top: -6vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 13vw;
+        top: -6vh;
+    }
+    /* צד */
+    #btc7 {
+        left: -20vw;
+        top: -5vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 47vw;
+        top: 60vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 44vw;
+        top: 36vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -8vw;
+        top: -9.5vh;
+    }
+    .starter-title {
+        margin-top: 7vh;
+        font-size: 4vmax;
+    }
+    .play-p {
+        top: 42vh;
+        left: 4vw;
+    }
+    .play {
+        width: 11vmax;
+    }
+    .test-p3 {
+        left: 5vmax;
+        top: 3vh;
+    }
+    .start-p {
+        margin: 0;
+        font-size: 2.1vmax;
+        line-height: 150%;
+    }
+    .information-card {
+        top: 20vh;
+        left: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+    .information-test {
+        top: 20vh;
+        right: 10vw;
+        width: 70vw;
+        height: 55vh;
+    }
+    .play-p-test {
+        top: 41vh !important;
+        left: 5vw !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    /* למעלה */
+    #btd8 {
+        left: 49vw;
+        top: 39vh;
+    }
+    /* פרופלור */
+    #btd2 {
+        left: 67vw;
+        top: 49vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 19vw;
+        top: 48vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 20vw;
+        top: 55vh;
+    }
+    /* led */
+    #btd3 {
+        left: 75vw;
+        top: 52vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 54.5vw;
+        top: 49%;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 7vw;
+        top: -15vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -20vw;
+        top: 8vh;
+    }
+    /* צד */
+    #btc7 {
+        left: -21vw;
+        top: -4vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 47vw;
+        top: 58vh;
+    }
+    /* חזור */
+    #btu1 {
+        position: absolute;
+        left: 47vw;
+        top: -15vh;
+    }
+    /* Led */
+    #btu2 {
+        position: absolute;
+        left: 49vw;
+        top: -7vh;
+    }
+    /* חיישנים אולטרסונים */
+    #btu3 {
+        position: absolute;
+        left: 49vw;
+        top: -.5vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 44vw;
+        top: 37vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -8vw;
+        top: -9vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* למעלה */
+    #btd8 {
+        left: 47vw;
+        top: 39vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 18vw;
+        top: 48vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 19vw;
+        top: 53vh;
+    }
+    /* led */
+    #btd3 {
+        left: 74vw;
+        top: 51vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 53.5vw;
+        top: 49%;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 45vw;
+        top: 53vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 6vw;
+        top: -14vh;
+    }
+    /* כפתור חזרה הביתה */
+    #btc6 {
+        left: -15vw;
+        top: -5.5vh;
+    }
+    /* כפתור הדלקה */
+    #btc2 {
+        left: 12vw;
+        top: -5.5vh;
+    }
+    /* גויסטיק */
+    #btc3 {
+        position: absolute;
+        left: 11vw;
+        top: -2vh;
+    }
+    /* רחפן למטה */
+    #btd9 {
+        position: absolute;
+        left: 47vw;
+        top: 57vh;
+    }
+    /* Led */
+    #btu2 {
+        position: absolute;
+        left: 49vw;
+        top: -5vh;
+    }
+    /* נורית חיווי מאחורה */
+    #btd10 {
+        left: 44vw;
+        top: 38vh;
+    }
+    /* GPS */
+    #btc9 {
+        left: -8.5vw;
+        top: -8.5vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* למעלה */
+    #btd8 {
+        left: 47vw;
+        top: 39vh;
+    }
+    /* מנועים */
+    #btd1 {
+        left: 18vw;
+        top: 47vh;
+    }
+    /* חיישנים */
+    #btd4 {
+        left: 19vw;
+        top: 51vh;
+    }
+    /* led */
+    #btd3 {
+        left: 74vw;
+        top: 50vh;
+    }
+    /* עיגולים */
+    #btd6 {
+        left: 53.5vw;
+        top: 47.5%;
+    }
+    /* מצלמה */
+    #btd5 {
+        left: 43vw;
+        top: 52vh;
+    }
+    /* אנטנות */
+    #btc1 {
+        left: 6vw;
+        top: -11vh;
+    }
+    /* מחזיק טאבלט */
+    #btc8 {
+        left: -21vw;
+        top: 5vh;
+    }
+}
